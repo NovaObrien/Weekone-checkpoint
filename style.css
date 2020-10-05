@@ -18,6 +18,10 @@
   height: 50vh;
 }
 
+.mt-10{
+  margin-top: 25%;
+}
+
 .image1{
   background-image: url('Images/Beach2.jpg');
   /* background-repeat: no-repeat; */
