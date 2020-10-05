@@ -24,8 +24,6 @@
   /* background-attachment: fixed; */
   background-size: cover;
   background-position: top;
-  
-   
 }
 
 .image2{
@@ -35,11 +33,11 @@
 
 .bot-header{
   position: relative;
+  height: fit-content;
 }
 
 @media (min-width: 575.98px){
 .info-card{
-  
   width: 45%;
   height: fit-content;
   position:absolute;
@@ -48,31 +46,20 @@
 }
 }
 
+.info-card-sm{
+  background-color: rgb(219, 244, 255);
+  order: -1;
+}
+
 @media ( max-width: 575.98px){
   .hidden-sm{
     visibility: hidden;
   }
 }
 
-  .info-card-sm{
-    background-color: rgb(219, 244, 255);
-    order: -1;
-    
-    
-  }
-
-
-@media( max-width: 575.98px){
-  .expand-sm{
-    height: inherit;
-  }
-}
-
-
 @media( max-width: 575.98px){
   .test{
    width: 100%;
-   
   }
 }
 
