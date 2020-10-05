@@ -11,11 +11,11 @@
 }
 
 .vh-2{
-  height: 35vh;
+  min-height: 35vh;
 }
 
 .vh-4{
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .mt-10{
@@ -33,6 +33,7 @@
 .image2{
   background-image: url('Images/Resort.jpg');
   background-size: cover;
+  min-height: 40vh;
 }
 
 .bot-header{
@@ -64,6 +65,12 @@
 @media( max-width: 575.98px){
   .test{
    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .order-card{
+    order: -1;
   }
 }
 
