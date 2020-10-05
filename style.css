@@ -1,0 +1,86 @@
+.b-Main{
+  background-color: rgb(218, 195, 154);
+}
+
+.b-secondary{
+  background-color: darkgray;
+}
+
+.text-style{
+  font-family: 'Dancing Script', cursive;
+}
+
+.vh-2{
+  height: 35vh;
+}
+
+.vh-4{
+  height: 50vh;
+}
+
+.image1{
+  background-image: url('Images/Beach2.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: top;
+  
+   
+}
+
+.image2{
+  background-image: url('Images/Resort.jpg');
+  background-size: cover;
+}
+
+.bot-header{
+  position: relative;
+}
+
+@media (min-width: 575.98px){
+.info-card{
+  
+  width: 45%;
+  height: fit-content;
+  position:absolute;
+  top: 15%;
+  right: 5%;
+}
+}
+
+@media ( max-width: 575.98px){
+  .hidden-sm{
+    visibility: hidden;
+  }
+}
+
+  .info-card-sm{
+    background-color: rgb(219, 244, 255);
+    order: -1;
+    
+    
+  }
+
+
+@media( max-width: 575.98px){
+  .expand-sm{
+    height: inherit;
+  }
+}
+
+
+@media( max-width: 575.98px){
+  .test{
+   width: 100%;
+   
+  }
+}
+
+
+
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
