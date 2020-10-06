@@ -1,5 +1,5 @@
-.b-Main{
-  background-color: rgb(218, 195, 154);
+.b-main{
+  background-color: rgb(240, 215, 174);
 }
 
 .b-secondary{
@@ -9,6 +9,7 @@
 .text-style{
   font-family: 'Dancing Script', cursive;
 }
+
 
 .vh-2{
   min-height: 35vh;
@@ -31,7 +32,7 @@
 }
 
 .image2{
-  background-image: url('Images/Resort.jpg');
+  background-image: url('Images/Resort2.jpg');
   background-size: cover;
   min-height: 40vh;
 }
@@ -52,7 +53,7 @@
 }
 
 .info-card-sm{
-  background-color: rgb(219, 244, 255);
+  /* background-color: rgb(219, 244, 255); */
   order: -1;
 }
 
@@ -73,6 +74,7 @@
     order: -1;
   }
 }
+
 
 
 
